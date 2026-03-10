@@ -164,8 +164,8 @@ export function getRoutes() {
             },
             {
               "depth": 2,
-              "value": "核心设计理念",
-              "heading": "核心设计理念"
+              "value": "核心设计理念tttt",
+              "heading": "核心设计理念tttt"
             },
             {
               "depth": 3,
