@@ -1,10 +1,8 @@
 import { defineConfig } from 'dumi';
 
 export default defineConfig({
-  // 基础配置
+  // 基础配置 - 新仓库名 yaya-hooks-docs
   base: '/',
-  // 公共路径 - 解决动态加载资源的路径问题
-  publicPath: '/',
   // 主题配置
   themeConfig: {
     name: 'YaYa Hooks',

@@ -14,7 +14,8 @@
       "Bash(gh run:*)",
       "Bash(gh api:*)",
       "WebFetch(domain:yaqiaosu.github.io)",
-      "Bash(grep:*)"
+      "Bash(grep:*)",
+      "Bash(git:*)"
     ]
   }
 }
