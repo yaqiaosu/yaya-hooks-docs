@@ -9,6 +9,7 @@ export default {
     type: 'none',
     exclude: [],
   },
+  publicPath: '/00.内容平台/',
   history: {
     type: 'hash',
   },
