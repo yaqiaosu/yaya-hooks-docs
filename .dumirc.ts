@@ -5,6 +5,8 @@ export default defineConfig({
   base: '/',
   // 修复 routerBase
   basePrefix: '/',
+  // 使用 Hash 路由，兼容 GitHub Pages
+  hash: true,
   // 主题配置
   themeConfig: {
     name: 'YaYa Hooks',
