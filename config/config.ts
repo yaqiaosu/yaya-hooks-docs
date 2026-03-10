@@ -4,7 +4,6 @@ import { menu } from '../config/hooks.ts';
 // 配置文件
 export default {
   // 具体配置项
-  base: '/-/', // 添加这个
   exportStatic: {},
   nodeModulesTransform: {
     type: 'none',

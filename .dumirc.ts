@@ -1,8 +1,10 @@
 import { defineConfig } from 'dumi';
 
 export default defineConfig({
-  // 基础配置 - 新仓库名 yaya-hooks-docs
+  // 基础配置
   base: '/',
+  // 修复 routerBase
+  basePrefix: '/',
   // 主题配置
   themeConfig: {
     name: 'YaYa Hooks',

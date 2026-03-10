@@ -15,7 +15,9 @@
       "Bash(gh api:*)",
       "WebFetch(domain:yaqiaosu.github.io)",
       "Bash(grep:*)",
-      "Bash(git:*)"
+      "Bash(git:*)",
+      "Bash(NODE_OPTIONS=--openssl-legacy-provider pnpm dumi:*)",
+      "Bash(perl:*)"
     ]
   }
 }
