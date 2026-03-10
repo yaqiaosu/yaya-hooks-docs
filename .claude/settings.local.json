@@ -17,7 +17,8 @@
       "Bash(grep:*)",
       "Bash(git:*)",
       "Bash(NODE_OPTIONS=--openssl-legacy-provider pnpm dumi:*)",
-      "Bash(perl:*)"
+      "Bash(perl:*)",
+      "Bash(npm run:*)"
     ]
   }
 }
