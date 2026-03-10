@@ -9,7 +9,7 @@ export default {
     type: 'none',
     exclude: [],
   },
-  publicPath: '/00.内容平台/',
+  publicPath: '/yaya-hooks-docs/',
   history: {
     type: 'hash',
   },
@@ -18,6 +18,8 @@ export default {
   themeConfig: {
     name: 'yaya-hooks',
   },
+  // 设置 routerBase 和 basename
+  base: '/yaya-hooks-docs/',
   styles: [
     'https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap',
   ],
