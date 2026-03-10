@@ -2,9 +2,7 @@ import { defineConfig } from 'dumi';
 
 export default defineConfig({
   // 基础配置
-  base: '/',
-  // 修复 routerBase
-  basePrefix: '/',
+
   // 使用 Hash 路由，兼容 GitHub Pages
   hash: true,
   // 主题配置
@@ -32,8 +30,6 @@ export default defineConfig({
   ],
   // 确保使用正确的 Babel 配置
   babel: {
-    presets: [
-      ['@babel/preset-react', { runtime: 'automatic' }],
-    ],
+    presets: [['@babel/preset-react', { runtime: 'automatic' }]],
   },
 });
