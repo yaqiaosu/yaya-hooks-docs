@@ -139,7 +139,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "docs/guide/index.md",
-          "updatedTime": 1773159833000,
+          "updatedTime": 1773160093000,
           "title": "指南",
           "hero": {
             "image": "https://api.dicebear.com/7.x/bottts-neutral/svg?seed=YaYaHooks&backgroundColor=030307",
