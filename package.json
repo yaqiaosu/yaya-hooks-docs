@@ -10,7 +10,9 @@
     "start": "node scripts/start.mjs",
     "build": "node scripts/build.mjs",
     "site": "NODE_OPTIONS=--openssl-legacy-provider dumi dev",
-    "build:doc": "NODE_OPTIONS=--openssl-legacy-provider dumi build"
+    "build:doc": "NODE_OPTIONS=--openssl-legacy-provider dumi build",
+    "pub": "pnpm run build hooks && pnpm -r --filter=./packages/hooks publish",
+    "pub:beta ": "pnpm run build hooks && pnpm -r --filter=./packages/hooks publish --tag beta"
   },
   "keywords": [],
   "author": "",
